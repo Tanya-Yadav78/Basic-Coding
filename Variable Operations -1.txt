@@ -1,0 +1,51 @@
+Write a program to perform the following operation
+
+a+b-c
+
+Note (a, b and c is being provided by the user. Your task is to display a+b-c)
+
+Example:-
+
+Input
+
+a=3 , b=4, c=9
+
+Output
+
+-2
+
+
+
+Input
+
+a=10, b=6, c=4
+
+Output:-
+
+12
+
+
+
+SOLUTION:
+
+import java.util.*;
+public class Main
+
+
+{
+    public static void calculate(int a,int b,int c)
+    {
+       int calculate;
+       calculate=a+b-c;
+       System.out.println(calculate);
+    
+    }
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        calculate(a,b,c);
+    }
+}
